@@ -74,4 +74,9 @@ button {
     padding: 4px 16px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--secondary-dark);
 }
