@@ -10,3 +10,8 @@
 body {
     margin: 0;
 }
+
+.content-wrapper {
+    max-width: 1440px;
+    width: 100%;
+}
