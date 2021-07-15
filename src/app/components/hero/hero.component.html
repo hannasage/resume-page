@@ -9,10 +9,9 @@
     <div class="right-hero">
         <h3>Top apps</h3>
         <ul>
-            <li class="i">
-                <app-app-card-list appThumbnailURL="https://www.whiskeyleague.app/static/media/bourbons.f9165237.png"
-                    appName="WhiskeyLeague"
-                    appDescription="A crowdsourced whiskey tasting notes database for whiskey lovers by a whiskey lover">
+            <li *ngFor="let app of apps">
+                <app-app-card-list appURL="{{app.url}}" appThumbnailURL="{{app.thumbnail}}" appName="{{app.name}}"
+                    appDescription="{{app.desc}}">
                 </app-app-card-list>
             </li>
         </ul>
