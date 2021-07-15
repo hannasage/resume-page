@@ -15,6 +15,11 @@
     display: none;
 }
 
+.right-hero > ul {
+    list-style: none;
+    padding: 0;
+}
+
 .text-container {
     color: white;
     width: 350px;

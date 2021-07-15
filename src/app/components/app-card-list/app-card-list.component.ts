@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-app-card-list',
@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app-card-list.component.css']
 })
 export class AppCardListComponent implements OnInit {
+
+  @Input() appThumbnailURL: string;
+  @Input() appName: string;
+  @Input() appDescription: string;
 
   constructor() { }
 
