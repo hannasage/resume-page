@@ -8,7 +8,7 @@ import { AppsService } from 'src/app/services/apps.service';
 })
 export class HeroComponent implements OnInit {
 
-  apps;
+  apps: Array<Object>;
 
   constructor(private appsService: AppsService) { }
 
